@@ -1,56 +1,73 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
-.navbar{
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.navbar {
     font-size: 40px;
 }
-body{
+html{
+    min-height: 100%;
+    height: 100%; 
+}
+
+body {
     background-color: black;
-    width: 100%;
-    height: 100px;
+    min-height: 100%;
+    height: 100%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 24px;
 }
-.navbar-brand{
+.card{
+    border: 10px dashed wheat;
+}
+.navbar-brand {
     font-size: 40px;
 }
-.carousel-inner{
+
+.carousel-inner {
     height: 100%;
 }
-.arousel-inner img{
- 
- 
+
+.arousel-inner img {
+
+
     width: 100%;
     height: 100%;
-    
+
 }
-H1{
+
+H1 {
     font-size: 50px;
     text-align: center;
 }
 
-.card-body{
-   background-color: black;
-   color: white;
-   font-family: 'Times New Roman', Times, serif;
+.card-body {
+    background-color: black;
+    color: white;
+
 }
-.card:hover{
-    box-shadow: 20px 5px 5px  gray;
-}
-.btn{
+
+
+.btn {
     border: 1px solid white;
     border-radius: 10px;
     font-size: 30px;
 }
-.alert-danger{
+
+.alert-danger {
     border: 10px dashed red;
 }
-.alert-warning{
+
+.alert-warning {
     border: 15px dashed yellow;
 
 }
-.alert-info{
-    border: 10px dashed blue    ;
+
+.alert-info {
+    border: 10px dashed blue;
 
 }
