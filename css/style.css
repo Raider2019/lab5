@@ -41,7 +41,6 @@ body {
 }
 
 
-
 .card-body {
     background-color: black;
     color: white;
@@ -52,7 +51,7 @@ body {
 .btn {
     border: 1px solid white;
     border-radius: 10px;
-    font-size: 30px;
+    font-size:25px;
 }
 
 .alert-danger {
