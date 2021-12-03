@@ -4,7 +4,7 @@
 }
 
 .navbar {
-    font-size: 30px;
+    font-size: 15px;
 }
 html{
     min-height: 100%;
@@ -15,18 +15,23 @@ body {
     background-color: black;
     min-height: 100%;
     height: 100%;
+    font-family: 'Open Sans', sans-serif;
+
 }
 .card{
     border: 10px dashed wheat;
 }
 .navbar-brand {
-    font-size: 30px;
+    font-size: 28px;
 }
 
-.carousel-inner {
-    height: 100%;
+.nav-item{
+    font-size: 25px;
 }
-
+.btn{
+    border-radius: 15px;
+  
+}
 
 
 
@@ -37,22 +42,15 @@ body {
 }
 
 
-.btn {
-    border: 1px solid white;
-    border-radius: 10px;
-    font-size:25px;
+
+
+
+
+hr{
+    border: 2px solid red !important;
+    border-bottom-width:0 !important ;
 }
-
-.alert-danger {
-    border: 10px dashed red;
-}
-
-.alert-warning {
-    border: 15px dashed yellow;
-
-}
-
-.alert-info {
-    border: 10px dashed blue;
-
+#Gallery{
+    border: 10px dashed white;
+    margin-bottom: 20px ;
 }
