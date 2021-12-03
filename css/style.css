@@ -21,13 +21,8 @@ body {
 .card{
     border: 10px dashed wheat;
 }
-.navbar-brand {
-    font-size: 28px;
-}
 
-.nav-item{
-    font-size: 25px;
-}
+
 .btn{
     border-radius: 15px;
   
