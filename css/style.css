@@ -48,7 +48,8 @@ hr{
     border: 2px solid red !important;
     border-bottom-width:0 !important ;
 }
-#Gallery{
-    border: 10px dashed white;
-    margin-bottom: 20px ;
+#Gallery img{
+    border: 6px dashed white;
+    margin-top: 20px;
+    
 }
